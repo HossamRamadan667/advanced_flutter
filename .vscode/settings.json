@@ -1,0 +1,12 @@
+{
+	"material-icon-theme.folders.associations": { 
+		"networking":"public",
+		"theming": "theme",
+		"dependency_injection": "connection",
+		"features": "App",
+
+	},
+	"cSpell.words": [
+		"Docdoc"
+	]
+}
