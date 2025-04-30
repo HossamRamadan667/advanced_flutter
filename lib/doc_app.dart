@@ -1,4 +1,5 @@
 import 'package:advanced_flutter/src/core/routing/router.dart';
+import 'package:advanced_flutter/src/core/routing/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -18,8 +19,9 @@ class DocApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
         ),
+        initialRoute: AppRoutes.onboarding,
+        onGenerateRoute: appRouter.generateRouter,
       ),
-      home: const Placeholder(),
     );
   }
 }
